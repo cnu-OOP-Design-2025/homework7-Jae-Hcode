@@ -21,6 +21,8 @@ public:
 
 class FlyNoWay : public FlyBehavior {
     /* TODO */
+    public:
+        void fly() override;
 };
 
 //---------------------------------------------------
@@ -34,6 +36,8 @@ public:
 // 전략 구현 클래스들
 class Quack : public QuackBehavior {
     /* TODO */
+    public:
+        void quack() override;
 };
 
 class Squeak: public QuackBehavior {
@@ -45,6 +49,8 @@ public:
 
 class MuteQuack : public QuackBehavior {
     /* TODO */
+    public:
+        void quack() override;
 };
 
 // 오리 클래스
